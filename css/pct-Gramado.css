@@ -1,0 +1,176 @@
+body{
+    background-attachment: fixed;
+    background-color: rgba(255, 255, 255, 0.568);
+}
+
+/* Menu */
+.logo{
+    width: 50px;
+    height: 50px;
+    position: -ms-page;
+    top: -25px;
+    left: 30%;
+    border-radius: 10%;
+}
+
+/* Menu */
+.passaporte{
+    width: 30px;
+    height: 30px;
+    position: -ms-page;
+    top: -25px;
+    left: 30%;
+    border-radius: 10%;
+}
+
+/* Menu */
+.sessao{
+    width: 30px;
+    height: 30px;
+    position: -ms-page;
+    top: -25px;
+    left: 30%;
+    border-radius: 10%;
+}
+
+/* Menu */
+.viagens{
+    width: 30px;
+    height: 30px;
+    position: -ms-page;
+    top: -25px;
+    left: 30%;
+    border-radius: 10%;
+}
+
+/* Menu */
+.navbar{
+    border-radius: 30px;
+    text-align: center;
+    padding: auto;
+    font-weight: bold;
+}
+
+/* Carousel inicio */
+.carousel-inner{
+    min-width: 100%;
+    height: 600px;
+
+}
+
+/* Detalhes do pacote */
+.card-group{
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    min-height: 500px;
+}
+
+/* Detalhes do pacote */
+.card{
+    width: 500px;
+    height: 500px;
+    top: 15%;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    border-radius: 20px;
+    padding: 30px;
+    box-shadow: 0px, 0px, 10px, 0px;
+    background-color: rgba(235, 235, 235, 0.514);
+}
+
+/* Detalhes do pacote */
+.card-title{
+    margin-bottom: 10%;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bolder;
+}
+
+/* identacao do texto secundario card1 */
+.form-text{
+    text-indent: 7%;
+}
+
+/* identacao do texto secundario card2 */
+.form{
+    text-indent: 0%;
+}
+
+/* icone pacote */
+.img-pess{
+    width: 30px;
+    height: 30px;
+    position: -ms-page;
+    top: -25px;
+    left: 30%;
+    border-radius: 10%;
+}
+
+/* icone pacote */
+.img-dia{
+    width: 30px;
+    height: 30px;
+    position: -ms-page;
+    top: -25px;
+    left: 30%;
+    border-radius: 5%;
+}
+
+/* icone pacote */
+.img-cafe{
+    width: 40px;
+    height: 40px;
+    position: -ms-page;
+    top: -25px;
+    left: 30%;
+    border-radius: 10%;
+}
+
+/* icone pacote */
+.img-voo{
+    width: 30px;
+    height: 30px;
+    position: -ms-page;
+    top: -25px;
+    left: 30%;
+    border-radius: 10%;
+}
+
+/* Modal formulário */
+.modal-body{
+    border-radius: 30px;
+    font-size: 15px;
+    width: 900px;
+    height: 400px;
+    left: 20%;
+}
+
+/* caixa formulario */
+.form-control{
+    width: 450px;
+    height: 40px;
+}
+
+/* Corpo do Formulário */
+.form-group{
+    font-size: 16px;
+}
+
+/* botao */
+.btn{
+    position: -ms-page;
+    font-weight: bolder;
+}
+
+/* Footer */
+footer{
+    margin-top: 15px;
+    bottom: 0px;
+    width: 100%;
+    text-align: center;
+    line-height: 50px;
+    background-color: rgba(0, 0, 0, 0.815);
+    color: #fff;
+    font-size: 20px;
+}
