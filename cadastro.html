@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <!-- Meta tags Obrigatórias -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/cadastro.css">
+</head>
+
+<body>
+
+    <!-- Menu -->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <a class="navbar-brand" href="#"><img class="logo" src="imagem/logo.jpg"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado"
+                aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="conteudoNavbarSuportado">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><img class="passaporte" src="imagem/passaporte.jpg"> Passaporte
+                            <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><img class="sessao" src="imagem/perfil.jpg"> Iniciar Sessão <span
+                                class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><img class="viagens" src="imagem/aviao.jpg"> Minhas Viagens <span
+                                class="sr-only">(current)</span></a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <nav class="navbar  navbar-expand-lg navbar-dark bg-dark">
+            <a class="navbar-brand ml-auto" href="#">Menu</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Alterna navegação">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Pacotes</a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item" href="#">Praia</a>
+                            <a class="dropdown-item" href="#">Serra</a>
+                            <a class="dropdown-item" href="#">Cidade</a>
+                            <a class="dropdown-item" href="#">Campo</a>
+                            <a class="dropdown-item" href="#">Internacionais</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Sobre</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contato</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Título -->
+    <section>
+        <div class="pct-rio row justify-content-center" title="Cadastro de novo usuário">
+            <h1>
+                <hr> Cadastro de novo usuário
+            </h1>
+        </div>
+    </section>
+
+    <!-- Formulário -->
+    <form>
+        <div class="container">
+            <div class="form-group col-md-5 mt-5 mx-auto">
+                <label for="exampleInputEmail1">Nome Completo</label>
+                <input type="text" class="form-control" id="exampleInputnome1" aria-describedby="nomelHelp"
+                    placeholder="Digite seu nome completo">
+            </div>
+            <div class="form-group col-md-5 mx-auto">
+                <label for="exampleInputEmail1">E-mail</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                    placeholder="Entre com seu email">
+            </div>
+            <div class="form-group col-md-5 mx-auto">
+                <label for="inputEstado">Data de Nascimento</label>
+                <select id="inputEstado" class="form-control">
+                    <option selected>dd/mm/aa</option>
+                    <option>...</option>
+                </select>
+            </div>
+            <div class="form-group col-md-5 mx-auto">
+                <label for="inputEstado">Estado</label>
+                <select id="inputEstado" class="form-control">
+                    <option selected>Escolher...</option>
+                    <option>...</option>
+                </select>
+            </div>
+            <div class="form-group col-md-5 mx-auto">
+                <label for="exampleInputEndereco1">Endereço</label>
+                <input type="endereco" class="form-control" id="exampleInputEndereco1" aria-describedby="enderecoHelp"
+                    placeholder="Digite seu endereço">
+            </div>
+
+            <div class="form-group col-md-5 mx-auto">
+                <div class="row">
+                    <legend class="col-form-label col-sm-5 pt-0">Sexo:</legend>
+                    <div class="col-sm-10">
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1"
+                                value="opcao1" checked>
+                            <label class="form-check-label" for="gridRadios1">
+                                Feminino
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2"
+                                value="opcao2">
+                            <label class="form-check-label" for="gridRadios2">
+                                Masculino
+                            </label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container">
+                    <div class="form-group mt-1 col-md-5 mx-auto">
+                        <div class="row justify-content-center">
+                            <legend class="col-form-label">Categorias de interesse (Marque mais de uma opção): </legend>
+                            <div class="col-sm-15">
+                                <div class="custom-control custom-radio custom-control-inline">
+                                    <input type="radio" id="customRadioInline1" name="customRadioInline1"
+                                        class="custom-control-input">
+                                    <label class="custom-control-label" for="customRadioInline1">Praia</label>
+                                </div>
+                                <div class="custom-control custom-radio custom-control-inline">
+                                    <input type="radio" id="customRadioInline2" name="customRadioInline1"
+                                        class="custom-control-input">
+                                    <label class="custom-control-label" for="customRadioInline2">Campo</label>
+                                </div>
+                                <div class="custom-control custom-radio custom-control-inline">
+                                    <input type="radio" id="customRadioInline1" name="customRadioInline1"
+                                        class="custom-control-input">
+                                    <label class="custom-control-label" for="customRadioInline1">Nacionais</label>
+                                </div>
+                                <div class="custom-control custom-radio custom-control-inline">
+                                    <input type="radio" id="customRadioInline2" name="customRadioInline1"
+                                        class="custom-control-input">
+                                    <label class="custom-control-label" for="customRadioInline2">Internacionais</label>
+                                </div>
+                                <div class="custom-control custom-radio custom-control-inline">
+                                    <input type="radio" id="customRadioInline1" name="customRadioInline1"
+                                        class="custom-control-input">
+                                    <label class="custom-control-label" for="customRadioInline1">Serra</label>
+                                </div>
+                                <div class="custom-control custom-radio custom-control-inline">
+                                    <input type="radio" id="customRadioInline2" name="customRadioInline1"
+                                        class="custom-control-input">
+                                    <label class="custom-control-label" for="customRadioInline2">Cidade</label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container">
+                <div class="form-group col-md-5 mt-3 mx-auto">
+                    <label for="exampleInputLogin1">Login:</label>
+                    <input type="login" class="form-control" id="exampleInputLogin1" aria-describedby="loginHelp">
+                </div>
+                <div class="form-group col-md-5 mx-auto">
+                    <label for="exampleInputSenha1">Senha:</label>
+                    <input type="password" class="form-control" id="exampleInputSenha1" aria-describedby="senhaHelp">
+                </div>
+            </div>
+
+            <div class="container">
+                <div class="col-lg-9 mt-5" style="text-align: right;">
+                    <button type="button" class="btn btn-success" data-toggle="modal" data-target="#ModalCadastro">Limpar</button>
+                    <a href="Pagamento.html" class="link-pacote">
+                <button type="button" class="btn btn-success" data-toggle="modal" data-target="#ModalCadastro">Salvar</button></a>
+            </div>
+        </div>
+    </form>
+
+      <!-- Footer -->
+  <div>
+    <footer>
+      JKF - Todos os direitos reservados
+    </footer>
+  </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+        </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous">
+        </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous">
+        </script>
+
+</body>
+
+</html>

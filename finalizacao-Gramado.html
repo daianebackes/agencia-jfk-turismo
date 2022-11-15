@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <!-- Meta tags Obrigatórias -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>Finalização Gramado</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/final-gramado.css">
+</head>
+
+<body>
+
+    <!-- Menu -->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light ">
+            <a class="navbar-brand" href="#"><img class="logo" src="imagem/logo.jpg"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado"
+                aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="conteudoNavbarSuportado">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><img class="passaporte" src="imagem/passaporte.jpg"> Passaporte
+                            <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><img class="sessao" src="imagem/perfil.jpg"> Iniciar Sessão <span
+                                class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><img class="viagens" src="imagem/aviao.jpg"> Minhas Viagens <span
+                                class="sr-only">(current)</span></a>
+                    </li>
+                </ul>
+            </div>
+
+        </nav>
+        <nav class="navbar  navbar-expand-lg navbar-dark bg-dark">
+            <a class="navbar-brand ml-auto" href="#">Menu</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Alterna navegação">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Pacotes</a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item" href="#">Praia</a>
+                            <a class="dropdown-item" href="#">Serra</a>
+                            <a class="dropdown-item" href="#">Cidade</a>
+                            <a class="dropdown-item" href="#">Campo</a>
+                            <a class="dropdown-item" href="#">Internacionais</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Sobre</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contato</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Título -->
+    <section>
+        <div class="pct-rio row justify-content-center" title="Finalização da compra">
+            <h1>
+                <hr> Finalização da Compra
+            </h1>
+        </div>
+    </section>
+
+    <!-- Finalizacao da compra -->
+    <div class="container">
+        <div class="card-deck">
+
+            <!-- Card 1 -->
+            <div class="card shadow p-3 mb-5 mt-5">
+                <img class="card-img-top" src="imagem/hotelG.jpg" alt="Imagem de capa do card">
+                <div class="card-body">
+                    <h5 class="card-title mt-4"> Hotel Fioreze </h5>
+                    <p class="card-texto"><img class="img-rota" src="imagem/distancia.jpg" alt="icone-distancia">
+                        R. São Pedro, 438 - Centro, Gramado - RS, 95670-000</p>
+                </div>
+            </div>
+
+            <!-- Card 2 -->
+            <div class="card shadow p-3 mb-5 mt-5">
+                <div class="card-body">
+                    <h5 class="card-title mt-4"> Horários </h5>
+                    <p class="card-texto"> - Check in: 14:00</p>
+                    <p class="card-texto"> - Check out: 12:00</p>
+                    <p class="card-texto"> - Café da manhã: De 07:00 às 10:00</p>
+
+                    <h5 class="card-title mt-4"> Voo </h5>
+                    <p class="card-texto mt-3"> Ida (Azul) 07:00 ______________ 9:00 <small id="textHelpBlock"
+                            class="form-text text-muted">
+                            Quin, 20 de out.
+                        </small>
+                        <hr>
+                    <p class="card-texto mt-3"> Volta (Azul) 17:00 ____________ 19:00 <small id="textHelpBlock"
+                            class="form-text text-muted">
+                            Sab, 22 de out.
+                        </small>
+                    </p>
+                </div>
+            </div>
+
+            <!-- Card 3 -->
+            <div class="card shadow p-3 mb-5 mt-5">
+                <div class="card-body">
+                    <h5 class="card-title mt-4"> Finalização da Compra </h5>
+                    <hr>
+                    <p class="card-texto mb-4"> Pacote R$840 </p>
+                    <hr>
+                    <p class="text-captalize mb-4"> Taxas e Impostos R$160 </p>
+                    <hr>
+                    <p class="text-captalize font-weight-bold mb-4">VALOR FINAL: R$1.00 </p>
+
+                    <div class="col-lg-18 mt-2" style="text-align: right;">
+                        <hr><button type="button" class="btn btn-success" data-toggle="modal"
+                            data-target=".bd-example-modal-lg">FINALIZAR COMPRA
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <div>
+        <footer>
+            JKF - Todos os direitos reservados
+        </footer>
+    </div>
+
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+            </script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+            integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous">
+            </script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+            integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous">
+            </script>
+
+</body>
+
+</html>

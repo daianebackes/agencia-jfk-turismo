@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <!-- Meta tags Obrigatórias -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>Pagamento Rio</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/pag-Rio.css">
+</head>
+
+<body>
+
+    <!-- Menu -->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light ">
+            <a class="navbar-brand" href="#"><img class="logo" src="imagem/logo.jpg"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado"
+                aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="conteudoNavbarSuportado">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><img class="passaporte" src="imagem/passaporte.jpg"> Passaporte
+                            <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><img class="sessao" src="imagem/perfil.jpg"> Iniciar Sessão <span
+                                class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><img class="viagens" src="imagem/aviao.jpg"> Minhas Viagens <span
+                                class="sr-only">(current)</span></a>
+                    </li>
+                </ul>
+            </div>
+
+        </nav>
+        <nav class="navbar  navbar-expand-lg navbar-dark bg-dark">
+            <a class="navbar-brand ml-auto" href="#">Menu</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Alterna navegação">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Pacotes</a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item" href="#">Praia</a>
+                            <a class="dropdown-item" href="#">Serra</a>
+                            <a class="dropdown-item" href="#">Cidade</a>
+                            <a class="dropdown-item" href="#">Campo</a>
+                            <a class="dropdown-item" href="#">Internacionais</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Sobre</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contato</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Título -->
+    <section>
+        <div class="pct-rio row justify-content-center" title="Cadastro de novo usuário">
+            <h1>
+                <hr> Informações do Pagamento
+            </h1>
+        </div>
+    </section>
+
+    <!-- Formulário -->
+    <!-- Viajante 1 -->
+    <form>
+        <div class="container mt-5">
+            Viajante 1 
+            <div class="form-row">
+                <div class="form-group mt-3 col-md-5">
+                    <input type="text" class="form-control" id="inputnome1" aria-describedby="nomelHelp"
+                        placeholder="Primeiro nome *">
+                    <small id="textHelpBlock" class="form-text text-muted"> Caso seja um nome composto, informe os dois:
+                        Ex: José Luiz </small>
+                </div>
+                <div class="form-group mt-3 col-md-5">
+                    <input type="text" class="form-control" id="inputsobrenome1" aria-describedby="nomelHelp"
+                        placeholder="Último Sobrenome *">
+                    <small id="textHelpBlock" class="form-text text-muted"> Se ele for: Filho, Junior ou Neto, informe
+                        os seus dois últimos. Ex: Silva Filho</small>
+                </div>
+                <div class="form-group mt-3 col-md-5">
+                    <input type="data" class="form-control" id="inputNascimento1" aria-describedby="nascimentoHelp"
+                        placeholder="Data de nascimento *">
+                </div>
+                <div class="form-group mt-3 col-md-5">
+                    <select id="inputSexo" class="form-control">
+                        <option selected>Sexo</option>
+                        <option>Feminino</option>
+                        <option>Masculino</option>
+                    </select>
+                </div>
+                <div class="form-group mt-3 col-md-5">
+                    <input type="email" class="form-control" id="inputEmail1" aria-describedby="emailHelp"
+                        placeholder="E-mail *">
+                </div>
+                <div class="form-group mt-3 col-md-5">
+                    <input type="celular" class="form-control" id="inputTel1" aria-describedby="telHelp"
+                        placeholder="Celular *">
+                </div>
+                <div class="form-group mt-3 col-md-5">
+                    <input type="doc" class="form-control" id="inputDoc1" aria-describedby="docHelp" placeholder="CPF">
+                </div>
+                <div class="form-group mt-3 col-md-5">
+                    <input type="doc" class="form-control" id="inputDoc1" aria-describedby="docHelp" placeholder="RG">
+                </div>
+            </div>
+        </div>
+    </form>
+
+    <!-- Viajante 2 -->
+    <form>
+        <div class="container mt-5">
+            Viajante 2
+            <div class="form-row">
+                <div class="form-group mt-3 col-md-5">
+                    <input type="text" class="form-control" id="inputnome1" aria-describedby="nomelHelp"
+                        placeholder="Primeiro nome *">
+                    <small id="textHelpBlock" class="form-text text-muted"> Caso seja um nome composto, informe os dois:
+                        Ex: José Luiz </small>
+                </div>
+                <div class="form-group mt-3 col-md-5">
+                    <input type="text" class="form-control" id="inputsobrenome1" aria-describedby="nomelHelp"
+                        placeholder="Último Sobrenome *">
+                    <small id="textHelpBlock" class="form-text text-muted"> Se ele for: Filho, Junior ou Neto, informe
+                        os seus dois últimos. Ex: Silva Filho</small>
+                </div>
+                <div class="form-group mt-3 col-md-5">
+                    <input type="data" class="form-control" id="inputNascimento1" aria-describedby="nascimentoHelp"
+                        placeholder="Data de nascimento *">
+                </div>
+                <div class="form-group mt-3 col-md-5">
+                    <select id="inputSexo" class="form-control">
+                        <option selected>Sexo</option>
+                        <option>Feminino</option>
+                        <option>Masculino</option>
+                    </select>
+                </div>
+                <div class="form-group mt-3 col-md-5">
+                    <input type="email" class="form-control" id="inputEmail1" aria-describedby="emailHelp"
+                        placeholder="E-mail *">
+                </div>
+                <div class="form-group mt-3 col-md-5">
+                    <input type="celular" class="form-control" id="inputTel1" aria-describedby="telHelp"
+                        placeholder="Celular *">
+                </div>
+                <div class="form-group mt-3 col-md-5">
+                    <input type="doc" class="form-control" id="inputDoc1" aria-describedby="docHelp" placeholder="CPF">
+                </div>
+                <div class="form-group mt-3 col-md-5">
+                    <input type="doc" class="form-control" id="inputDoc1" aria-describedby="docHelp" placeholder="RG">
+                </div>
+            </div>
+        </div>
+    </form>
+
+    <!-- Subtítulo -->
+    <section>
+        <div class="pct-rio row justify-content-center" title="pagamento">
+            <h1>
+                <hr> Dados do Pagamento
+            </h1>
+        </div>
+    </section>
+
+    <!-- Pagamento -->
+    <form>
+        <div class="container mt-5">
+            Selecione a forma de pagamento
+            <div class="form-row">
+                <div class="form-group mt-3 col-md-5">
+                    <select id="inputPagamento" class="form-control">
+                        <option selected>Método de pagamento</option>
+                        <option>Cartão de Crédito</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+    </form>
+    <form>
+        <div class="container mt-2">
+            Cartão de Crédito
+            <div class="form-row">
+                <div class="form-group mt-3 col-md-5">
+                    <select id="inputPagamento" class="form-control">
+                        <option selected>Bandeira do Cartão de Crédito</option>
+                        <option>VISA</option>
+                        <option>MASTERCARD</option>
+                        <option>ELO CRÉDITO</option>
+                        <option>HIPERCARD</option>
+                        <option>NUBANK</option>
+                        <option>OUTRO...</option>
+                    </select>
+                </div>
+                <div class="form-group mt-3 col-md-5">
+                    <select id="inputPagamento" class="form-control">
+                        <option selected>Parcelamento</option>
+                        <option>1x sem juros </option>
+                        <option>2x sem juros </option>
+                        <option>3x sem juros </option>
+                        <option>4x sem juros </option>
+                        <option>5x sem juros </option>
+                        <option>6x sem juros </option>
+                        <option>7x sem juros </option>
+                        <option>8x sem juros </option>
+                        <option>9x sem juros </option>
+                        <option>10x sem juros </option>
+                    </select>
+                </div>
+                <div class="form-group mt-3 col-md-5">
+                    <input type="text" class="form-control" id="inputnome1" aria-describedby="nomelHelp"
+                        placeholder="Número do Cartão *">
+                </div>
+                <div class="form-group mt-3 col-md-5">
+                    <input type="text" class="form-control" id="inputnome1" aria-describedby="nomelHelp"
+                        placeholder="Nome Impresso no Cartão *">
+                </div>
+                <div class="form-group mt-3 col-md-3">
+                    <select id="inputPagamento" class="form-control">
+                        <option selected>Mês de validade *</option>
+                        <option>01 </option>
+                        <option>02 </option>
+                        <option>03 </option>
+                        <option>04 </option>
+                        <option>05 </option>
+                        <option>06 </option>
+                        <option>07 </option>
+                        <option>08 </option>
+                        <option>09 </option>
+                        <option>10 </option>
+                        <option>11 </option>
+                        <option>12 </option>
+                    </select>
+                </div>
+                <div class="form-group mt-3 col-md-3">
+                    <select id="inputPagamento" class="form-control">
+                        <option selected>Ano de validade *</option>
+                        <option>2022 </option>
+                        <option>2023 </option>
+                        <option>2024 </option>
+                        <option>2025 </option>
+                        <option>2026 </option>
+                        <option>2027 </option>
+                        <option>2028 </option>
+                        <option>2029 </option>
+                        <option>2030 </option>
+                        <option>2031 </option>
+                        <option>2032 </option>
+                        <option>2033 </option>
+                        <option>2034 </option>
+                        <option>2035 </option>
+                    </select>
+                </div>
+                <div class="form-group mt-3 col-md-4">
+                    <input type="text" class="form-control" id="inputnome1" aria-describedby="nomelHelp"
+                        placeholder="Cod. Segurança *">
+                </div>
+            </div>
+        </div>
+    </form>
+    <form>
+        <div class="container mt-5">
+            Endereço completo
+            <div class="form-row">
+                <div class="form-group mt-3 col-md-5">
+                    <input type="text" class="form-control" id="inputnome1" aria-describedby="nomelHelp"
+                        placeholder="CEP *">
+                </div>
+                <div class="form-group mt-3 col-md-5">
+                    <input type="text" class="form-control" id="inputnome1" aria-describedby="nomelHelp"
+                        placeholder="Endereço *">
+                </div>
+                <div class="form-group mt-3 col-md-5">
+                    <input type="text" class="form-control" id="inputnome1" aria-describedby="nomelHelp"
+                        placeholder="Número *">
+                </div>
+                <div class="form-group mt-3 col-md-5">
+                    <input type="text" class="form-control" id="inputnome1" aria-describedby="nomelHelp"
+                        placeholder="Complemento">
+                </div>
+                <div class="form-group mt-3 col-md-5">
+                    <input type="text" class="form-control" id="inputnome1" aria-describedby="nomelHelp"
+                        placeholder="Bairro *">
+                </div>
+                <div class="form-group mt-3 col-md-5">
+                    <input type="text" class="form-control" id="inputnome1" aria-describedby="nomelHelp"
+                        placeholder="Cidade *">
+                </div>
+                <div class="form-group mt-3 col-md-5">
+                    <select id="inputEstado" class="form-control">
+                        <option selected>Estado</option>
+                        <option> ... </option>
+                    </select>
+                </div>
+                <div class="form-group mt-3 col-md-5">
+                    <select id="inputEstado" class="form-control">
+                        <option selected>País</option>
+                        <option> ... </option>
+                    </select>
+                </div>
+            </div>
+        </div>
+    </form>
+
+    <!-- Subtítulo -->
+    <section>
+        <div class="pct-rio row justify-content-center" title="pagamento">
+            <h1>
+                <hr> Notificações
+            </h1>
+        </div>
+    </section>
+
+    <!-- Dados -->
+    <form>
+        <div class="container mt-5">
+            Insira seus dados para o envio do voucher e atualizaçoes da viagem
+            <div class="form-row">
+                <div class="form-group mt-3 col-md-5">
+                    <input type="celular" class="form-control" id="inputTel1" aria-describedby="telHelp"
+                        placeholder="E-mail *">
+                </div>
+                <div class="form-group mt-3 col-md-5">
+                    <input type="celular" class="form-control" id="inputTel1" aria-describedby="telHelp"
+                        placeholder="Confirme o seu E-mail *">
+                </div>
+                <div class="form-group mt-3 col-md-5">
+                    <input type="celular" class="form-control" id="inputTel1" aria-describedby="telHelp"
+                        placeholder="Telefone *">
+                </div>
+                <div class="form-group mt-3 col-md-5">
+                    <input type="celular" class="form-control" id="inputTel1" aria-describedby="telHelp"
+                        placeholder="WhatsApp *">
+                </div>
+            </div>
+        </div>
+    </form>
+
+    <form>
+        <div class="container mt-5">
+            <div class="custom-control custom-checkbox">
+                <input type="checkbox" class="custom-control-input" id="customCheck1">
+                <label class="custom-control-label" for="customCheck1"> Declaro que li e estou de acordo com as tarifas,
+                    condições de compra e políticas de cancelamento da JFK.</label>
+            </div>
+            <div class="text mt-4">
+                Para saber mais sobre coleta, utilização e proteção de seus dados pessoais, leia nossa Política de Privacidade.
+            </div>
+        </div>
+        <div class="container">
+            <div class="col-lg-9 mt-5" style="text-align: right;">
+                <a href="finalizacao-Rio.html" class="link-pacote">
+            <button type="button" class="btn btn-success" data-toggle="modal" data-target="#ModalCadastro">FINALIZAR COMPRA</button></a>
+        </div>
+    </div>
+    </form>
+
+    <!-- Footer -->
+    <div>
+        <footer>
+            JKF - Todos os direitos reservados
+        </footer>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+    </script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+    integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous">
+    </script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+    integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous">
+    </script>
+
+</body>
+
+</html>
